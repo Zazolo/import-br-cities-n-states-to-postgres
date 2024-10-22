@@ -1,0 +1,18 @@
+{
+  "name": "import-br-cities-n-states-to-postgres",
+  "version": "1.0.0",
+  "description": "Faz o download dos CSVs do governo, e as coloca em uma tabela no Postgres",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tiago B. Corrêa",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "csv-parser": "^3.0.0",
+    "fs": "^0.0.1-security",
+    "iconv-lite": "^0.6.3",
+    "pg": "^8.13.0"
+  }
+}
